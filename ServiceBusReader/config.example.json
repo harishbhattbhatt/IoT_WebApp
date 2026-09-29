@@ -1,0 +1,16 @@
+{
+  "ServiceBus": {
+    "ConnectionString": "Endpoint=sb://<namespace>.servicebus.windows.net/;SharedAccessKeyName=<listen-policy>;SharedAccessKey=<key>",
+    "QueueName": "temp",
+    "TopicName": "",
+    "SubscriptionName": "",
+    "MaxConcurrentCalls": 1
+  },
+  "Decryption": {
+    "KeyBase64": "",
+    "KeyFile": ""
+  },
+  "Output": {
+    "Directory": "received"
+  }
+}

@@ -1,0 +1,12 @@
+bin/
+obj/
+.vs/
+*.user
+
+# Secrets: never commit these
+config.json
+*.key
+SUBSCRIBER_HANDOFF*.md
+
+# Default output folder for received files
+received/
